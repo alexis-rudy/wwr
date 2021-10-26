@@ -1,13 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato&display=swap');
+
 #content{
     max-width: 1600px;
     margin: 0 auto;
 }
-nav a {
-    text-align: center;
-    color: black;
-    text-decoration: none;
-}
+
+
 #hero-msg h1{
+    font-family: 'Bebas Neue';
     text-align: center;
 }
 #hero-msg h4{
@@ -15,12 +15,19 @@ nav a {
 }
 #hero-image{
     width: 100%;
+    margin: 0px;
+    padding: 0px;
+    
 }
-.button-box{
-    text-align: center;
+#logo_link{
+    padding-top: 5px;
 }
+
 main section{
     text-align: center;
+}
+main section img{
+    box-sizing: border-box;
 }
 #background{
     height: 725px;
@@ -29,20 +36,56 @@ main section{
 header{
     background-color: #e4be9e;
 }
+nav a {
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    padding: 35px;
+}
 nav a:hover{
     background-color: #776871;
     color: white;
 }
 footer{
     background-color: #e4be9e;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+footer h3{
+    color: black;
+    text-decoration: underline;
+}
+footer a{
+    color: rgb(240, 226, 220);
+    text-decoration: none;
+}
+footer a:hover{
+    color: black;
+    text-decoration: underline;
+}
+footer .social img{
+    padding-top: 15px;
+}
+h2{
+    margin:0;
+}
+h4{
+    color: black;
 }
 body{
     background-color: #188ec9;
+    font-family: 'Lato', Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 .book{
     background-color: #83e8ba;
     color: white;
     text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover{
     background-color: #776871;
@@ -52,6 +95,9 @@ body{
     background-color: #83e8ba;
     color: white;
     text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .join:hover{
     background-color: #776871;
@@ -59,34 +105,36 @@ body{
 }
 .msg{
     background-color: #e4be9e;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .home-title{
     color: black;
+    font-size: 2em;
+    margin-top: 10px;
 }
-h4{
-    color: black;
+.button-box{
+    text-align: center;
 }
+
 .msg h2{
     color: black;
 }
 .msg p{
     color: white;
+    padding-bottom: 15px;
 }
-footer h3{
-    color: black;
-    text-decoration: underline;
-}
-footer a{
-    color: white;
-    text-decoration: none;
-}
-footer a:hover{
-    color: black;
-    text-decoration: underline;
-}
+
 .logo{
     width: 80px;
 }
 .icon{
     width: 80px;
+    padding-top: 5px;
+}
+.product{
+    margin: 200px 0;
+}
+.product-img{
+    border: 10px solid black;
 }
